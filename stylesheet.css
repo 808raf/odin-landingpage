@@ -1,0 +1,91 @@
+/* Set basic font and remove default styling */
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove bullet points from links */
+ul {
+    list-style: none;
+}
+
+/* Set containers to use flexbox */
+.container,
+.navbar,
+.nav-links ul,
+.hero-container {
+    display: flex;
+}
+
+.container,
+.section-one {
+    flex-direction: column;
+}
+
+/* Add padding to section */
+.section-one {
+    padding: 10px 450px;
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+
+/* Add styling to left hero text */
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+/* Hero secondary text and header link text */
+.hero-left p,
+.nav-links ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Header logo text */
+.header-logo h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Style button */
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 6px 30px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #3882F6;
+    margin-top: 10px;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    justify-content: space-between;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+ul {
+    gap: 10px;
+}
+
+.hero-right {
+    padding: 100px 100px;
+    background-color: #E5E7EB;
+}
+
+.hero-left {
+    flex-basis: 500px;
+    margin-right: 50px;
+}
