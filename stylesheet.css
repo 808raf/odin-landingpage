@@ -98,6 +98,10 @@ ul {
     margin-bottom: 25px;
 }
 
+.section-two {
+    margin-bottom: 50px;
+}
+
 .icon-group {
     display: flex;
     align-items: center;
@@ -118,4 +122,27 @@ ul {
 
 .icon-description {
     text-align: center;
+}
+
+/* Section three styling below */
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px 550px;
+    
+}
+
+.section-three p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section-three span {
+    align-self: flex-end;
+    margin-right: 50px;
+    font-weight: bold;
 }
