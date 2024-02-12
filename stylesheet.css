@@ -176,3 +176,13 @@ ul {
 .call-group span {
     color: #E5E7EB;
 }
+
+/* Styling for section 5 footer below */
+.section-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 25px 0;
+}
