@@ -146,3 +146,33 @@ ul {
     margin-right: 50px;
     font-weight: bold;
 }
+
+/* Section four styling below */
+.call-container {
+    background-color: #3882F6;
+    margin: 50px 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+
+.call-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-container button {
+    border-color: white;
+}
+
+.call-group h4 {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.call-group span {
+    color: #E5E7EB;
+}
